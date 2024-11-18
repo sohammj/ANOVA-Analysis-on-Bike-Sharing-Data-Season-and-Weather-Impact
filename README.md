@@ -1,5 +1,7 @@
 ANOVA Analysis on Bike Sharing Data: Season and Weather Impact
-Project Overview
+
+Project Overview:
+
 The ANOVA Analysis on Bike Sharing Data is a Python-based project that uses statistical analysis to understand how seasons and weather conditions influence the demand for bike-sharing services. This project applies Analysis of Variance (ANOVA) to test the impact of different seasons and weather conditions on the number of bikes rented. By analyzing the dataset, the project provides insights into the factors affecting bike-sharing demand, which can help service providers and urban planners optimize bike-sharing services.
 Key Features
 * ANOVA Statistical Testing: Implements one-way ANOVA tests to analyze the impact of season and weather on bike rentals.
