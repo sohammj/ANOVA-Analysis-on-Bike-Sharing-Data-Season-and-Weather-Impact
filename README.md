@@ -21,29 +21,36 @@ Technologies Used
 * Statsmodels: For performing the ANOVA and regression analysis.
 How to Use
 Clone the repository:
-
 git clone https://github.com/sohammj/ANOVA-Analysis-on-Bike-Sharing-Data-Season-and-Weather-Impact.git
 cd ANOVA-Analysis-on-Bike-Sharing-Data-Season-and-Weather-Impact
+
 Install required dependencies:
 pip install -r requirements.txt
+
+
 Run the analysis:
 python CODE/ANOVA_YULU.py
 Access the provided datasets and reports:
 * DATA/yulu_bike_sharing_dataset.csv: Contains the bike-sharing data.
 * PPT/Predicting Yulu Bike Demand with Statistical Analysis (ANOVA).pdf: A report summarizing the analysis and findings.
-Hypothesis Testing
-Season Analysis
+
+Hypothesis Testing:
+
+Season Analysis:
 * Null Hypothesis (H0): There is no significant difference in the number of bikes rented due to season.
 * Alternative Hypothesis (H1): There is a significant difference in bike rentals due to season.
 The ANOVA test shows that the number of bikes rented is significantly impacted by the season, with a p-value close to zero, leading us to reject the null hypothesis.
-Weather Analysis
+
+Weather Analysis:
 * Null Hypothesis (H0): There is no significant difference in the number of bikes rented due to weather.
 * Alternative Hypothesis (H1): There is a significant difference in bike rentals due to weather.
 Similarly, the analysis shows a significant impact of weather on bike rentals, with the p-value indicating a strong rejection of the null hypothesis.
-Future Enhancements
+
+Future Enhancements:
 * Multivariable Analysis: Extend the analysis to include additional factors such as holidays or public events that could affect bike rental patterns.
 * Predictive Modeling: Implement machine learning models (e.g., regression, time series forecasting) to predict bike-sharing demand based on weather and seasonal data.
 * Database Integration: Migrate the dataset to a relational database (like SQLite) for easier management and querying.
-Acknowledgments
+  
+Acknowledgments:
 * Faculty Advisor: Dr. Khinal Parmar
 * Data Sources: Yulu Bike Sharing Dataset (Mock dataset for analysis).
